@@ -13,6 +13,7 @@ const string=str.split(",");
 console.log(string);
 
 // You can make this array to sentence again using join(joining string) function
+console.log("join string")
 console.log(string.join(" "));
 
 // a.concate(b) function concate two string or array and includes function retrun true or false
