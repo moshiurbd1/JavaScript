@@ -1,0 +1,15 @@
+const title=document.getElementById('section');
+console.log(title);
+const li=document.getElementsByTagName('li');
+console.log(li);
+const list=document.getElementsByClassName('list');
+console.log(list);
+const listItem=document.querySelectorAll('li');
+console.log(listItem);
+const id=document.querySelector('#section');
+console.log(id);
+const section=document.createElement("section");
+const h1=document.createElement('h1');
+h1.innerText="This is title";
+section.append(h1);
+id.append(section);
