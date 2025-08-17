@@ -10,5 +10,4 @@ console.log(num3);
 // we can add more value before and after spread operator
 const num4=[7,8,...numbers,9];
 console.log(num4);
-
 console.log(Math.max(...num4));
