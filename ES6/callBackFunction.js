@@ -9,3 +9,4 @@ function morningGreetings(name){
 greetings(morningGreetings,'Torikul');
 //callback function call another function inside a function
 
+
