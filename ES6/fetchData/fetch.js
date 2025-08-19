@@ -32,3 +32,21 @@
         });
       }
 
+const loadData=async()=>{
+  const res=await fetch('https://jsonplaceholder.typicode.com/users');
+  const data= await res.json();
+  console.log(data);
+
+}
+const loadData2=async()=>{
+  try{
+    const res=await fetch('https://jsonplaceholder.typicode.com/users');
+  const data= await res.json();
+  console.log(data);
+
+  }
+  catch(error){
+    console.log('Data load error');
+    //or console.error('Data load error);
+  }
+}
